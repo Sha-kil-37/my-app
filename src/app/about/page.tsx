@@ -1,5 +1,3 @@
-import React from "react";
-
 type Props = {};
 
 const page = (props: Props) => {
@@ -17,6 +15,7 @@ const page = (props: Props) => {
           doloribus amet, molestiae beatae vitae quam!
         </p>
       </div>
+    
     </section>
   );
 };

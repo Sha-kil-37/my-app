@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import blog from "@/assets/blog.jpg";
 import Link from "next/link";
+import Counter from "@/components/counter";
 type Props = {};
 
 const page = (props: Props) => {
@@ -34,6 +35,7 @@ const page = (props: Props) => {
           </Link>
         </div>
       </div>
+      <Counter />
     </section>
   );
 };
